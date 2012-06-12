@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BCEDEB1587398500EA67F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDEA1587398500EA67F4 /* UIKit.framework */; };
+		04BCEDED1587398500EA67F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDEC1587398500EA67F4 /* Foundation.framework */; };
+		04BCEDEF1587398500EA67F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDEE1587398500EA67F4 /* CoreGraphics.framework */; };
+		04BCEDF11587398500EA67F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDF01587398500EA67F4 /* CoreData.framework */; };
+		04BCEDF71587398500EA67F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04BCEDF51587398500EA67F4 /* InfoPlist.strings */; };
+		04BCEDF91587398500EA67F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEDF81587398500EA67F4 /* main.m */; };
+		04BCEDFD1587398500EA67F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEDFC1587398500EA67F4 /* AppDelegate.m */; };
+		04BCEE001587398500EA67F4 /* iMetaContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEDFE1587398500EA67F4 /* iMetaContacts.xcdatamodeld */; };
+		04BCEE031587398500EA67F4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEE021587398500EA67F4 /* MasterViewController.m */; };
+		04BCEE061587398500EA67F4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEE051587398500EA67F4 /* DetailViewController.m */; };
+		04BCEE091587398500EA67F4 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BCEE071587398500EA67F4 /* MasterViewController.xib */; };
+		04BCEE0C1587398500EA67F4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BCEE0A1587398500EA67F4 /* DetailViewController.xib */; };
+		04BCEE141587398500EA67F4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEE131587398500EA67F4 /* SenTestingKit.framework */; };
+		04BCEE151587398500EA67F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDEA1587398500EA67F4 /* UIKit.framework */; };
+		04BCEE161587398500EA67F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDEC1587398500EA67F4 /* Foundation.framework */; };
+		04BCEE171587398500EA67F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCEDF01587398500EA67F4 /* CoreData.framework */; };
+		04BCEE1F1587398500EA67F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04BCEE1D1587398500EA67F4 /* InfoPlist.strings */; };
+		04BCEE221587398500EA67F4 /* iMetaContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCEE211587398500EA67F4 /* iMetaContactsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BCEE181587398500EA67F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BCEDDD1587398500EA67F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BCEDE51587398500EA67F4;
+			remoteInfo = iMetaContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BCEDE61587398500EA67F4 /* iMetaContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMetaContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BCEDEA1587398500EA67F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04BCEDEC1587398500EA67F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04BCEDEE1587398500EA67F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04BCEDF01587398500EA67F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04BCEDF41587398500EA67F4 /* iMetaContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMetaContacts-Info.plist"; sourceTree = "<group>"; };
+		04BCEDF61587398500EA67F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04BCEDF81587398500EA67F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BCEDFA1587398500EA67F4 /* iMetaContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMetaContacts-Prefix.pch"; sourceTree = "<group>"; };
+		04BCEDFB1587398500EA67F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BCEDFC1587398500EA67F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BCEDFF1587398500EA67F4 /* iMetaContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMetaContacts.xcdatamodel; sourceTree = "<group>"; };
+		04BCEE011587398500EA67F4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		04BCEE021587398500EA67F4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		04BCEE041587398500EA67F4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04BCEE051587398500EA67F4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04BCEE081587398500EA67F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		04BCEE0B1587398500EA67F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		04BCEE121587398500EA67F4 /* iMetaContactsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMetaContactsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BCEE131587398500EA67F4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		04BCEE1C1587398500EA67F4 /* iMetaContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMetaContactsTests-Info.plist"; sourceTree = "<group>"; };
+		04BCEE1E1587398500EA67F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04BCEE201587398500EA67F4 /* iMetaContactsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMetaContactsTests.h; sourceTree = "<group>"; };
+		04BCEE211587398500EA67F4 /* iMetaContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMetaContactsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BCEDE31587398500EA67F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEDEB1587398500EA67F4 /* UIKit.framework in Frameworks */,
+				04BCEDED1587398500EA67F4 /* Foundation.framework in Frameworks */,
+				04BCEDEF1587398500EA67F4 /* CoreGraphics.framework in Frameworks */,
+				04BCEDF11587398500EA67F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCEE0E1587398500EA67F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEE141587398500EA67F4 /* SenTestingKit.framework in Frameworks */,
+				04BCEE151587398500EA67F4 /* UIKit.framework in Frameworks */,
+				04BCEE161587398500EA67F4 /* Foundation.framework in Frameworks */,
+				04BCEE171587398500EA67F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BCEDDB1587398500EA67F4 = {
+			isa = PBXGroup;
+			children = (
+				04BCEDF21587398500EA67F4 /* iMetaContacts */,
+				04BCEE1A1587398500EA67F4 /* iMetaContactsTests */,
+				04BCEDE91587398500EA67F4 /* Frameworks */,
+				04BCEDE71587398500EA67F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BCEDE71587398500EA67F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEDE61587398500EA67F4 /* iMetaContacts.app */,
+				04BCEE121587398500EA67F4 /* iMetaContactsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BCEDE91587398500EA67F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEDEA1587398500EA67F4 /* UIKit.framework */,
+				04BCEDEC1587398500EA67F4 /* Foundation.framework */,
+				04BCEDEE1587398500EA67F4 /* CoreGraphics.framework */,
+				04BCEDF01587398500EA67F4 /* CoreData.framework */,
+				04BCEE131587398500EA67F4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04BCEDF21587398500EA67F4 /* iMetaContacts */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEDFB1587398500EA67F4 /* AppDelegate.h */,
+				04BCEDFC1587398500EA67F4 /* AppDelegate.m */,
+				04BCEE011587398500EA67F4 /* MasterViewController.h */,
+				04BCEE021587398500EA67F4 /* MasterViewController.m */,
+				04BCEE041587398500EA67F4 /* DetailViewController.h */,
+				04BCEE051587398500EA67F4 /* DetailViewController.m */,
+				04BCEE071587398500EA67F4 /* MasterViewController.xib */,
+				04BCEE0A1587398500EA67F4 /* DetailViewController.xib */,
+				04BCEDFE1587398500EA67F4 /* iMetaContacts.xcdatamodeld */,
+				04BCEDF31587398500EA67F4 /* Supporting Files */,
+			);
+			path = iMetaContacts;
+			sourceTree = "<group>";
+		};
+		04BCEDF31587398500EA67F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEDF41587398500EA67F4 /* iMetaContacts-Info.plist */,
+				04BCEDF51587398500EA67F4 /* InfoPlist.strings */,
+				04BCEDF81587398500EA67F4 /* main.m */,
+				04BCEDFA1587398500EA67F4 /* iMetaContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BCEE1A1587398500EA67F4 /* iMetaContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEE201587398500EA67F4 /* iMetaContactsTests.h */,
+				04BCEE211587398500EA67F4 /* iMetaContactsTests.m */,
+				04BCEE1B1587398500EA67F4 /* Supporting Files */,
+			);
+			path = iMetaContactsTests;
+			sourceTree = "<group>";
+		};
+		04BCEE1B1587398500EA67F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BCEE1C1587398500EA67F4 /* iMetaContactsTests-Info.plist */,
+				04BCEE1D1587398500EA67F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BCEDE51587398500EA67F4 /* iMetaContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BCEE251587398500EA67F4 /* Build configuration list for PBXNativeTarget "iMetaContacts" */;
+			buildPhases = (
+				04BCEDE21587398500EA67F4 /* Sources */,
+				04BCEDE31587398500EA67F4 /* Frameworks */,
+				04BCEDE41587398500EA67F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMetaContacts;
+			productName = iMetaContacts;
+			productReference = 04BCEDE61587398500EA67F4 /* iMetaContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BCEE111587398500EA67F4 /* iMetaContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BCEE281587398500EA67F4 /* Build configuration list for PBXNativeTarget "iMetaContactsTests" */;
+			buildPhases = (
+				04BCEE0D1587398500EA67F4 /* Sources */,
+				04BCEE0E1587398500EA67F4 /* Frameworks */,
+				04BCEE0F1587398500EA67F4 /* Resources */,
+				04BCEE101587398500EA67F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BCEE191587398500EA67F4 /* PBXTargetDependency */,
+			);
+			name = iMetaContactsTests;
+			productName = iMetaContactsTests;
+			productReference = 04BCEE121587398500EA67F4 /* iMetaContactsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BCEDDD1587398500EA67F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 04BCEDE01587398500EA67F4 /* Build configuration list for PBXProject "iMetaContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04BCEDDB1587398500EA67F4;
+			productRefGroup = 04BCEDE71587398500EA67F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BCEDE51587398500EA67F4 /* iMetaContacts */,
+				04BCEE111587398500EA67F4 /* iMetaContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BCEDE41587398500EA67F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEDF71587398500EA67F4 /* InfoPlist.strings in Resources */,
+				04BCEE091587398500EA67F4 /* MasterViewController.xib in Resources */,
+				04BCEE0C1587398500EA67F4 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCEE0F1587398500EA67F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEE1F1587398500EA67F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BCEE101587398500EA67F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BCEDE21587398500EA67F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEDF91587398500EA67F4 /* main.m in Sources */,
+				04BCEDFD1587398500EA67F4 /* AppDelegate.m in Sources */,
+				04BCEE001587398500EA67F4 /* iMetaContacts.xcdatamodeld in Sources */,
+				04BCEE031587398500EA67F4 /* MasterViewController.m in Sources */,
+				04BCEE061587398500EA67F4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCEE0D1587398500EA67F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCEE221587398500EA67F4 /* iMetaContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BCEE191587398500EA67F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BCEDE51587398500EA67F4 /* iMetaContacts */;
+			targetProxy = 04BCEE181587398500EA67F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BCEDF51587398500EA67F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCEDF61587398500EA67F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04BCEE071587398500EA67F4 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCEE081587398500EA67F4 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		04BCEE0A1587398500EA67F4 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCEE0B1587398500EA67F4 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		04BCEE1D1587398500EA67F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCEE1E1587398500EA67F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BCEE231587398500EA67F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BCEE241587398500EA67F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BCEE261587398500EA67F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMetaContacts/iMetaContacts-Prefix.pch";
+				INFOPLIST_FILE = "iMetaContacts/iMetaContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04BCEE271587398500EA67F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMetaContacts/iMetaContacts-Prefix.pch";
+				INFOPLIST_FILE = "iMetaContacts/iMetaContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04BCEE291587398500EA67F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMetaContacts.app/iMetaContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMetaContacts/iMetaContacts-Prefix.pch";
+				INFOPLIST_FILE = "iMetaContactsTests/iMetaContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04BCEE2A1587398500EA67F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMetaContacts.app/iMetaContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMetaContacts/iMetaContacts-Prefix.pch";
+				INFOPLIST_FILE = "iMetaContactsTests/iMetaContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BCEDE01587398500EA67F4 /* Build configuration list for PBXProject "iMetaContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCEE231587398500EA67F4 /* Debug */,
+				04BCEE241587398500EA67F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BCEE251587398500EA67F4 /* Build configuration list for PBXNativeTarget "iMetaContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCEE261587398500EA67F4 /* Debug */,
+				04BCEE271587398500EA67F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BCEE281587398500EA67F4 /* Build configuration list for PBXNativeTarget "iMetaContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCEE291587398500EA67F4 /* Debug */,
+				04BCEE2A1587398500EA67F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04BCEDFE1587398500EA67F4 /* iMetaContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04BCEDFF1587398500EA67F4 /* iMetaContacts.xcdatamodel */,
+			);
+			currentVersion = 04BCEDFF1587398500EA67F4 /* iMetaContacts.xcdatamodel */;
+			path = iMetaContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04BCEDDD1587398500EA67F4 /* Project object */;
+}
